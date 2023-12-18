@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./data.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><img class="logo" src="https://wallpaperaccess.in/public/uploads/preview/tata-ipl-2022-logo-png-images-z.png" alt="Logo"></li>
+            <li>
+                <input type="text" name="" id="searchBar" placeholder="Search for teams/players">
+                <button class="addBtn" onclick="searchPlayer()">Search</button>
+            </li>
+            <li id="button"><button class="addBtn" id="add-btn" onclick="addData()">Add Team/Player</button></li>
+        </ul>
+    </nav>
+
+    <!-- Back Button -->
+
+    <div class="container">
+        <button onclick="goBack()">&larr; Back</button>
+    </div>
+
+    <!-- Main Body -->
+    <div id="mainBody">
+        <div class="cards" id="CARDS">
+            <div id="CSK" onclick="onClick(this.id)" class="team">
+                <img src="https://wallpaperaccess.in/public/uploads/preview/indian-premier-league-2022-chennai-super-kings-team-logo-image-wallpaper-o.jpg" alt="CSK">
+                <h1 class="teamName">CSK</h1>
+            </div>
+            <div id="MI" onclick="onClick(this.id)" class="team">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/61/74/desktop-wallpaper-mumbai-indians-ipl-metallic-logo-poster-painting-ipl-team-logo.jpg" alt="MI">
+                <h1 class="teamName">MI</h1>
+            </div>
+            <div id="KKR" onclick="onClick(this.id)" class="team">
+                <img src="https://wallpapercave.com/dwp1x/wp4298363.jpg" alt="KKR">
+                <h1 class="teamName">KKR</h1>
+            </div>
+            <div id="RCB" onclick="onClick(this.id)" class="team">
+                <img src="https://c.ndtvimg.com/2020-02/1r5vdst_rcb_625x300_14_February_20.jpg?output-quality=80&downsize=639:*" alt="RCB">
+                <h1 class="teamName">RCB</h1>
+            </div>
+            <div id="GT" onclick="onClick(this.id)" class="team">
+                <img src="https://imgk.timesnownews.com/story/Gujarat_Titans_logo.png?tr=w-600,h-450,fo-auto" alt="GT">
+                <h1 class="teamName">GT</h1>
+            </div>
+            <div id="DC" onclick="onClick(this.id)" class="team">
+                <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2018/12/04/Pictures/_b1c8f74c-f7b9-11e8-b0ae-a79201e85078.jpg" alt="DC">
+                <h1 class="teamName">DC</h1>
+            </div>
+            <div id="SRH" onclick="onClick(this.id)" class="team">
+                <img src="https://wallpapercave.com/dwp1x/wp4128423.jpg" alt="SRH">
+                <h1 class="teamName">SRH</h1>
+            </div>
+            <div id="RR" onclick="onClick(this.id)" class="team">
+                <img src="https://media.crictracker.com/media/attachments/1674647344276_Rajasthan-Royals-Logo.jpeg" alt="RR">
+                <h1 class="teamName">RR</h1>
+            </div>
+            <div id="LSG" onclick="onClick(this.id)" class="team">
+                <img src="https://media.crictracker.com/media/featureimage/2022/01/Lucknow-Super-Giants-logo.jpg" alt="LSG">
+                <h1 class="teamName">LSG</h1>
+            </div>
+            <div id="PBKS" onclick="onClick(this.id)" class="team">
+                <img src="https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/02/12/1013819-pbks-logo.jpg?im=FitAndFill=(700,400)" alt="PBKS">
+                <h1 class="teamName">PBKS</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- script -->
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: beige;
+}
+.navbar{
+    margin-top: 20px;
+    background-color: #376E6F;
+    padding: 10px 60px;
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.logo{
+    height: 60px;
+}
+#searchBar{
+    padding: 10px 15px;
+    width: 350px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0px solid;
+}
+.addBtn{
+    padding: 10px 8px;
+    font-size: 16px;
+    background-color: rgb(77, 11, 11);
+    border: 0px solid;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container{
+    margin: 20px 100px;
+    padding: 20px 100px;
+}
+.container button{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: rgb(77, 11, 11);
+    border: 0px solid;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#mainBody{
+    margin: 20px 100px;
+}
+.cards{
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.team{
+    width: 350px;
+    background-color: #376E6F;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.team img{
+    width: 350px;
+    height: 200px;
+}
+.team h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 2PX;
+}
+.playerCard{
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.playerDiv{
+    width: 350px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.playerDiv img{
+    width: 350px;
+}
+.playerDetails{
+    padding: 10px 30px;
+    background-color: greenyellow;
+}
+.playerName{
+    letter-spacing: 2px;
+}
+.detail-Card{
+    background-color: cadetblue;
+    display: flex;
+    padding: 50px 200px;
+}
+.detail-Card img{
+    height: 500px;
+}
+.detail{
+    color: white;
+    margin: 350px 0px 0px 50px;
+}
+.player-Name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    font-size: xx-large;
+}
+.detail p{
+    letter-spacing: 3px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+}
